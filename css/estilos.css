@@ -1,0 +1,172 @@
+*{
+  font-family: 'Dancing Script', cursive;
+}
+
+html{
+  background: black;
+}
+
+#central{
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #82c3a6;
+}
+#secundaria{
+  text-align: center;
+  font-size:20px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d5c75f;
+}
+#secundaria a{
+  color: black;
+}
+footer{
+  background:  #C6d5c5;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+footer div{
+  padding: 20px;
+}
+header{
+  padding-top: 25px;
+  width: 100%;
+  height: 70px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+}
+h1{
+  text-shadow: 2px 2px #02010a;
+  color: white;
+}
+
+
+ul a{
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  padding: 10px;
+
+}
+
+a.current:link, a.current:visited{
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+
+  #wrapper
+  {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header{
+    text-align: center;
+    height: 150px;
+  }
+  .figura{
+    width: 100%;
+  }
+
+
+}
+@media screen and (min-width:901px) {
+
+  #wrapper
+  {
+    width: 900px;
+    margin: 0 auto;
+  }
+  #secundaria{
+    display: inline-flex;
+  }
+  footer{
+    display: inline-flex;
+  }
+
+  header h1{
+    padding: 20px;
+    width: 70%;
+    display: inline;
+
+  }
+  header ul{
+    width: 30%;
+    display: inline;
+    float: right;
+  }
+  .figura{
+    flex: 1 3 24%;
+
+  }
+
+}
+#figurap{
+  border: 1px solid;
+  transition-property: all;
+  transition-duration: 1s;
+}
+#figurap:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+}
+#figurar{
+  border: 1px solid;
+  transition-property: all;
+  transition-duration: 1s;
+}
+#figurar:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+}
+#imagenes{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+
+
+
+.figura1{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+
+
+}
+
+.figura2{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+
+}
+
+.figura3{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+
+}
+
+.figura4{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+
+}
+
+
+.figura6{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
